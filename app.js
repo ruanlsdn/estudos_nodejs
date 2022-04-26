@@ -29,22 +29,22 @@ do {
       } while (callback == 1);
       console.clear();
       break;
-      case 3:
-        do {
-          console.clear();
-          collections.explainCollections();
-          callback = callbackOption();
-        } while (callback == 1);
+    case 3:
+      do {
         console.clear();
-        break;
-        case 4:
-            do {
-              console.clear();
-              expressionAndOperator.explainExpressionsAndOperators();
-              callback = callbackOption();
-            } while (callback == 1);
-            console.clear();
-            break;
+        collections.explainCollections();
+        callback = callbackOption();
+      } while (callback == 1);
+      console.clear();
+      break;
+    case 4:
+      do {
+        console.clear();
+        expressionAndOperator.explainExpressionsAndOperators();
+        callback = callbackOption();
+      } while (callback == 1);
+      console.clear();
+      break;
 
     default:
       break;
